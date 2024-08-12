@@ -10,7 +10,7 @@ const Home: React.FC = () => {
             <span className="inline-text">I am</span> 
             <span className="inline-name"> Rigersa</span>
           </h1>
-          <h2>Web Developer + UX Designer</h2>
+          <h2>Web Developer </h2>
           <p>
             I break down complex user experience problems to create integrity-focused solutions that connect billions of people.
           </p>
