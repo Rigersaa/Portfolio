@@ -21,6 +21,8 @@ const App: React.FC = () => {
       <Portfolio />
       <Skills />
       <Contact />
+     
+
     </div>
   );
 }

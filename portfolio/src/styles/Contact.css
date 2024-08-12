@@ -9,6 +9,7 @@
   position: relative;
   flex-wrap: wrap;
   min-height: 400px; 
+ 
 }
 
 .contact-form {
@@ -23,6 +24,7 @@
   align-items: flex-end;
   flex: 1;
   margin-left: 2rem;
+  cursor:pointer;
 }
 
 .contact-info div, .contact-info a {

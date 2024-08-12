@@ -4,10 +4,10 @@ import '../styles/Services.css';
 
 const Services: React.FC = () => {
   const services = [
-    { title: 'Branding Design', description: 'I break down complex user experience problems to create integrity-focused solutions that connect billions of people.' },
-    { title: 'UI/UX Design', description: 'I break down complex user experience problems to create integrity-focused solutions that connect billions of people.' },
-    { title: 'Web Design', description: 'I break down complex user experience problems to create integrity-focused solutions that connect billions of people.' },
-    { title: 'App Design', description: 'I break down complex user experience problems to create integrity-focused solutions that connect billions of people.' },
+    { title: 'Branding Design', description: '"I craft compelling brand identities that resonate with audiences and build lasting impressions."' },
+    { title: 'UI/UX Design', description: 'I design intuitive interfaces and seamless user experiences that enhance engagement and satisfaction' },
+    { title: 'Web Design', description: 'I create visually appealing and functional websites that deliver outstanding user experiences across all devices.' },
+    { title: 'Social Media Management', description: 'I strategically manage social media channels to boost your online presence, engage with your audience, and drive growth.' },
   ];
 
   return (
