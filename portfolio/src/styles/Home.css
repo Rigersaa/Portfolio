@@ -39,20 +39,20 @@
 h1 {
   font-size: 4rem;
   margin-bottom: 0.5rem;
-  color: #e0e0e0; /* Light gray */
+  color: #e0e0e0; 
 }
 
 h2 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
-  color: #9c88ff; /* Light purple */
+  color: #9c88ff; 
 }
 
 p {
   font-size: 1.25rem;
   line-height: 1.6;
   margin-bottom: 2rem;
-  color: #d1d1e9; /* Slightly desaturated light color */
+  color: #d1d1e9; 
 }
 
 .download-btn {
@@ -83,7 +83,6 @@ p {
   border-radius: 10px;
 }
 
-/* Home.css */
 
 .download-btn {
   display: inline-block;
@@ -109,8 +108,8 @@ p {
 
 .inline-name {
   display: inline;
-  font-size: 36px; /* Adjust size as needed */
-  font-weight: bold; /* Optional: Make the name bold */
-  margin-left: 5px; /* Optional: Add some space between the two parts */
+  font-size: 36px;
+  font-weight: bold; 
+  margin-left: 5px; 
   color: #ffffff;
 }

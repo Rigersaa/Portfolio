@@ -8,7 +8,7 @@ import Contact from './components/Contact';
 import Header from './components/Header';
 import Skills from './components/Skills';
 
-import './styles/App.css';
+import './App.css';
 
 const App: React.FC = () => {
   return (

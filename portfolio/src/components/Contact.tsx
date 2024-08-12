@@ -55,22 +55,24 @@ const Contact: React.FC = () => {
 
       <div className="contact-info">
         <div>
-          <div style={{ backgroundColor: '#5B32A4', padding: '10px', borderRadius: '50%' }}>
-            <i className="fas fa-phone" style={{ color: 'white' }}></i>
+          <div className="contact-icon">
+            <i className="fas fa-phone"></i>
           </div>
           <p>+355 685 114 653</p>
         </div>
         <div>
-          <div style={{ backgroundColor: '#5B32A4', padding: '10px', borderRadius: '50%' }}>
-            <i className="fas fa-envelope" style={{ color: 'white' }}></i>
+          <div className="contact-icon">
+            <i className="fas fa-envelope"></i>
           </div>
           <p>rigersabicakuu@mail.com</p>
         </div>
         <div>
-          <div style={{ backgroundColor: '#5B32A4', padding: '10px', borderRadius: '50%' }}>
-            <i className="fas fa-map-marker-alt" style={{ color: 'white' }}></i>
-          </div>
-          <p>Tirana, Albania</p>
+          <a href="https://www.linkedin.com/in/rigersa-bicaku-044ba4256/" target="_blank" rel="noopener noreferrer">
+            <div className="contact-icon">
+              <i className="fab fa-linkedin"></i>
+            </div>
+            <p>LinkedIn</p>
+          </a>
         </div>
       </div>
     </section>

@@ -14,7 +14,7 @@ body {
   overflow-x: hidden;
 }
 
-/* Gradient Animation */
+
 @keyframes gradientAnimation {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
@@ -41,7 +41,6 @@ body {
   font-size: 3.5rem;
   margin-bottom: 20px;
   background: linear-gradient(90deg, #AB70FF, #ECA1FF);
-  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
 }
 
@@ -130,7 +129,7 @@ Super Cool Background Gradient */
   align-items: center;
 }
 
-/* Content and Titles */
+
 h1, .portfolio-title, .resume-title, .services-title {
   font-size: 4rem;
   margin-bottom: 0.5rem;
@@ -161,5 +160,5 @@ p, .section-description {
 
 
 .header-right ul li .active {
-  border-bottom: 2px solid #b16bff; /* Or any style you prefer */
+  border-bottom: 2px solid #b16bff; 
 }
