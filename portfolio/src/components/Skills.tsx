@@ -1,6 +1,6 @@
 import React from 'react';
-import '../styles/Skills.css';
-// import './styles/App.css';
+import '../styles/Skills.css'
+
 
 const Skills: React.FC = () => {
   return (

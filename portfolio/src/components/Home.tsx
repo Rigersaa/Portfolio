@@ -15,7 +15,7 @@ const Home: React.FC = () => {
             I break down complex user experience problems to create integrity-focused solutions that connect billions of people.
           </p>
           <a
-            href="/Rigersa%20Bicaku%20CV.pdf" 
+            href="/Rigersa_Bicaku_CV.pdf" 
             download="Rigersa_Bicaku_CV.pdf" 
             className="download-btn"
           >

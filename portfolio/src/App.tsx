@@ -7,8 +7,9 @@ import Services from './components/Services';
 import Contact from './components/Contact';
 import Header from './components/Header';
 import Skills from './components/Skills';
-import Footer from './components/Footer';
+
 import './styles/App.css';
+
 const App: React.FC = () => {
   return (
     <div>
@@ -20,8 +21,6 @@ const App: React.FC = () => {
       <Portfolio />
       <Skills />
       <Contact />
-      <Footer />
-      <App/>
     </div>
   );
 }

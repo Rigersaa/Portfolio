@@ -1,11 +1,30 @@
 import React from 'react';
 import '../styles/Contact.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import emailjs from 'emailjs-com';
 
 const Contact: React.FC = () => {
   const handleSubmit = (event: React.FormEvent) => {
     event.preventDefault();
-    // Handle form submission (e.g., send email)
+
+    // Collect form data
+    const form = event.target as HTMLFormElement;
+    const formData = new FormData(form);
+
+    // Convert FormData to an object
+    const data: { [key: string]: string } = {};
+    formData.forEach((value, key) => {
+      data[key] = value.toString();
+    });
+
+    // Send email using EmailJS
+    emailjs.send('service_h4wp3yn', 'template_h8lgwmt', data, '4W6Oi_BX-1XXXxl6p')
+      .then((result) => {
+        alert('Message sent successfully!');
+      }, (error) => {
+        alert('Failed to send message. Please try again later.');
+        console.error(error);
+      });
   };
 
   return (
@@ -39,13 +58,13 @@ const Contact: React.FC = () => {
           <div style={{ backgroundColor: '#5B32A4', padding: '10px', borderRadius: '50%' }}>
             <i className="fas fa-phone" style={{ color: 'white' }}></i>
           </div>
-          <p>+01 123 654 8096</p>
+          <p>+355 685 114 653</p>
         </div>
         <div>
           <div style={{ backgroundColor: '#5B32A4', padding: '10px', borderRadius: '50%' }}>
             <i className="fas fa-envelope" style={{ color: 'white' }}></i>
           </div>
-          <p>gerolddesign@mail.com</p>
+          <p>rigersabicakuu@mail.com</p>
         </div>
         <div>
           <div style={{ backgroundColor: '#5B32A4', padding: '10px', borderRadius: '50%' }}>
