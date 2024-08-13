@@ -13,10 +13,6 @@ import './App.css';
 import { analytics } from './firebase-config';
 import { logEvent } from 'firebase/analytics';
 
-
-  const handleClick = () => {
-    logEvent(analytics, 'button_click');
-  };
 const App: React.FC = () => {
   return (
     <div>
@@ -28,8 +24,6 @@ const App: React.FC = () => {
       <Portfolio />
       <Skills />
       <Contact />
-     
-
     </div>
   );
 }

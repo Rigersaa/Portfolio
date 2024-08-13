@@ -75,7 +75,7 @@ a:hover {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 
- .resume .column h3, .skills .column h3, .contact .column h3 {
+.resume .column h3, .skills .column h3, .contact .column h3 {
   margin-bottom: 20px;
   font-size: 1.8rem;
 }
@@ -83,9 +83,7 @@ a:hover {
 .resume .column p, .skills .column p, .contact .column p {
   margin-bottom: 15px;
   font-size: 1rem;
-} 
-
-
+}
 
 .contact-info .icon-text i {
   font-size: 24px;
@@ -108,8 +106,8 @@ a:hover {
 }
 
 
-Super Cool Background Gradient */
- .home, #resume, .services {
+
+ .home,  .services {
   background-color: #0F0F3E;
   background-image: linear-gradient(135deg, #0F0F3E 0%, #4B0082 50%, #7B4DAE 100%);
   color: #ffffff;
