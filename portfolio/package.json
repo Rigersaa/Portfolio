@@ -16,10 +16,11 @@
     "emailjs-com": "^3.2.0",
     "firebase": "^10.12.5",
     "framer-motion": "^11.3.24",
+    "npm-force-resolutions": "^0.0.10",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.0",
-    "react-scripts": "^3.0.1",
+    "react-scripts": "^5.0.1",
     "react-scroll": "^1.9.0",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4",
@@ -31,7 +32,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+     "preinstall": "npx npm-force-resolutions"
   },
   "eslintConfig": {
     "extends": [
@@ -56,5 +58,9 @@
     "@types/react-scroll": "^1.8.10",
     "gh-pages": "^6.1.1"
   },
+  "resolutions": {
+  "typescript": "4.9.5"
+},
+
   "homepage": "https://Rigersaa.github.io/Portfolio"
 }
