@@ -1,10 +1,18 @@
 .portfolio {
-  background-color: #0F0F3E;
- 
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 30px;
- 
+  width: 85%;
+  margin: 0 auto; /* Centers the container horizontally */
+  padding: 20px; /* Optional: Adds some padding around the container */
+  max-width: 1200px; /* Optional: Limits the maximum width of the container */
+}
+
+/* Optional: Center the grid items inside the container */
+.portfolio-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
   
   .portfolio-item {

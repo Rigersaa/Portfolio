@@ -10,8 +10,8 @@ import Skills from './components/Skills';
 
 import './App.css';
 
-import { analytics } from './firebase-config';
-import { logEvent } from 'firebase/analytics';
+// import { analytics } from './firebase-config';
+// import { logEvent } from 'firebase/analytics';
 
 const App: React.FC = () => {
   return (
